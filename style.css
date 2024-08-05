@@ -1,0 +1,157 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+body{
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins";
+}
+
+header {
+    background-color: #501d1d;
+
+}
+/* Navigation bar styles */
+nav{
+    display: flex;
+    background-color: rgb(155, 6, 6);
+    justify-content: space-around;
+    border-bottom: 1px solid rgba(241, 241, 241, 0.418);
+}
+nav div{
+    color: white;
+    margin-right: 850px;
+    font-weight: 500;
+    font-size: 18px;
+}
+nav ul{
+   display: flex;
+   list-style: none;
+}
+nav ul li a{
+   text-decoration: none;
+   color: white;
+   text-align: center;
+   padding: 5px 10px;
+}
+nav li {
+   color: whitesmoke;
+   text-decoration: none; 
+   font-size: 14px;
+}
+nav li a:hover{
+   background-color: #501d1d;
+   border-radius: 3px;
+   padding: 5px 10px;
+
+}
+/* Comment section styles */
+.comment{
+    text-align: center;
+    margin-right: 8%;
+    margin-left: 8%;
+    color: white;
+    padding: 2em;
+    font-size: 18px;
+}
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+/* Button styles */
+.button{
+    padding: 5px 25px;
+    text-align: center;
+    color: white;
+    background-color: #501d1d;
+    border: 1px solid rgb(231, 121, 121);
+    border-radius: 3px;
+    cursor: pointer;
+}
+button{
+    padding: 5px 15px;
+    text-align: center;
+    color: #af5252;
+    border: 1px solid rgb(179, 156, 156);
+    border-radius: 3px;
+    cursor: pointer;
+}
+.button:hover{
+    color: rgb(214, 134, 134);
+}
+button:hover{
+    color: tomato;
+}
+/* Car list grid styles */
+.car-list {
+    display: grid;
+    grid-template-areas: 
+    'header header header header'
+    'car car car car'
+    'car car car car'
+    'footer footer footer footer'
+;
+    grid-gap: 6px 6px;
+    padding: 10px;
+}
+/* Individual car item styles */
+.car-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
+.car-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+/* Modal styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 5px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* Footer styles */
+footer{
+    background-color: rgb(155, 6, 6);
+    padding: 10px;
+    color: white;
+    text-align: center;
+}

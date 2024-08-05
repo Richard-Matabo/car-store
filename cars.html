@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Sales</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="cars.js"></script>
+</head>
+<body onload="myCars()">
+<!-- Header section -->
+    <header>
+  <!-- Navigation bar -->
+        <nav>
+            <div><p>CARS SLALESMAN</p></div>
+             <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Gallary</a></li>
+                  <li><a href="#">Contac Us</a></li>
+            </ul>
+         </nav>
+  <!-- Welcome message and buttons -->
+        <div class="comment">
+             <h1>.Pick&nbsp;&nbsp; .Choose  &nbsp;&nbsp;.Sellect</h1>
+             <button class="button">More</button>
+             <button class="button">Buy</button>
+             <p>Welcome to our car dealership! Browse through our selection of cars for sale and click on the "Show More" button for detailed information about each car. We're here to help you find your perfect car!</p>
+        </div>  
+    </header>
+    <main>
+        <div id="car-list" class="car-list"></div>
+    </main>
+
+    <!-- Modal for displaying car details -->
+    <div id="car-modal" class="modal">
+        <div class="modal-content">
+      <!-- Close button for modal -->
+            <span class="close" id="modal-close">&times;</span>
+           <!-- Container for car details -->
+            <div id="car-details"></div>
+        </div>
+    </div>
+ <!-- Footer section -->
+<footer>
+    <p>©2024 - All Rights Reserved - Copyright Richard Matabo</p>
+</footer>
+</body>
+</html>
